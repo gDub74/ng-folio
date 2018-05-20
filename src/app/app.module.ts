@@ -14,6 +14,8 @@ import { TeamService } from './services/team.service';
 import { WeatherService } from './services/weather.service';
 import { HomeComponent } from './home/home.component';
 
+import { TeamManagerModule } from './team-manager/team-manager.module';
+
 @NgModule({
   declarations: [
     AppComponent,
