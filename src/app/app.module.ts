@@ -8,8 +8,10 @@ import { AppComponent } from './app.component';
 import { TeamManagerModule } from './team-manager/team-manager.module';
 import { MoviesModule } from './movies/movies.module';
 
+import { NavComponent } from './nav/nav.component';
+
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, NavComponent],
   imports: [BrowserModule, AppRoutingModule, TeamManagerModule, MoviesModule],
   providers: [],
   bootstrap: [AppComponent]
