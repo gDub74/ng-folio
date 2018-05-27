@@ -1,0 +1,40 @@
+h4{
+  display: inline-block;
+}
+
+h4:first-child{
+  margin-left: 400px;
+}
+
+h2{
+  margin-left: 20px;
+}
+.container{
+  border: 1px solid black;
+  border-radius: 3px;
+  border-color: rgb(1, 33, 63);
+  margin-left: 100px;
+  padding: 20px;
+  width: 80%;
+}
+
+button{
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+
+.yellow, .yellow2, .yellow3{
+  background-color: rgb(255, 209, 6)
+}
+
+.red, .red2, .red3{
+  background-color: red;
+  color: white;
+}
+
+.green, .green2, .green3{
+  background-color: green;
+  color: white;
+}
+
